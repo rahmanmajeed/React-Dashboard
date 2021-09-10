@@ -25,4 +25,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+## Add `Ant Design` to React Project -
+
+### `yarn add antd` or `npm i antd`
+
+### Add `antd` design css manually to project - `@import "antd/dist/antd.css"`
