@@ -6,3 +6,18 @@
 
 /*import ant design.*/
 @import "antd/dist/antd.css";
+
+/*adding base style*/
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+/* extend components */
+@layer components {
+  .grid-container {
+    @apply grid;
+  }
+}
