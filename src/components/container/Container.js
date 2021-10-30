@@ -19,12 +19,14 @@ function Container() {
               <Header handleSidebar={setSidebar}/>
           
             <div>
-              {routes.map((route) => (
+              {routes.map((route, index) => (
+                <div key={index}>
                 <Route
-                  exact={route.path}
+                  exact
                   path={route.path}
                   component={route.component}
                 />
+                </div>
               ))}
             </div>
           </div>
