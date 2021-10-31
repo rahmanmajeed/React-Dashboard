@@ -12,11 +12,11 @@ function Container() {
       <Router>
         <div className="grid grid-cols-12 min-w-full min-h-screen">
         
-            <Sidebar sidebar={sidebar}/>
+            <Sidebar sidebar={sidebar} handleSidebar={setSidebar}/>
       
           <div className={`${sidebar ? 'col-span-full md:col-start-3 md:col-end-13' : 'col-span-full'}`}>
          
-              <Header handleSidebar={setSidebar}/>
+              <Header handleSidebar={setSidebar} sidebar={sidebar}/>
           
             <div>
               {routes.map((route, index) => (

@@ -22,7 +22,7 @@ const routes = [
     name: "About",
     path: "/about",
     component: About,
-    icon: "#about",
+    icon: "#products",
     sidebar: true,
   },
   {
@@ -30,7 +30,7 @@ const routes = [
     name: "Profile",
     path: "/profile",
     component: Profile,
-    icon: "#profile",
+    icon: "#reports",
     sidebar: false,
   },
 ];
