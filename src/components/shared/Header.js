@@ -1,8 +1,9 @@
-import { useState } from "react";
+// import { useState } from "react";
+import React from "react";
 import Icon from "../icons/Icon";
 
 function Header({ sidebar, handleSidebar }) {
-  const [mobileSidebar, setMobileSidebar] = useState(false);
+  const [mobileSidebar, setMobileSidebar] = React.useState(false);
 
   const handleHeader = () => {
     handleSidebar((pState) => !pState);
